@@ -1,31 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { FIRST_APP, AdditionalInformation } from '../../common/constant';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+// import { FIRST_APP, AdditionalInformation } from '../../common/constant';
 
-const Home = () =>{
-  return (
-    <div className="App">
-      <div>{ `${FIRST_APP} - home page` }</div>
-      <AdditionalInformation />
-      <Link to="/test">Move to test page</Link>
-    </div>
-  );
-}
+// const Home = () =>{
+//   return (
+//     <div className="App">
+//       <div>{ `${FIRST_APP} - home page` }</div>
+//       <AdditionalInformation />
+//       <Link to="/test">Move to test page</Link>
+//     </div>
+//   );
+// }
 
-const TestPage = () =>{
-  return (
-    <div className="App">
-      <div>{ `${FIRST_APP} - test page` }</div>
-      <AdditionalInformation />
-      <Link to="/">Move to home page</Link>
-    </div>
-  );
-}
+// const TestPage = () =>{
+//   return (
+//     <div className="App">
+//       <div>{ `${FIRST_APP} - test page` }</div>
+//       <AdditionalInformation />
+//       <Link to="/">Move to home page</Link>
+//     </div>
+//   );
+// }
 
 const FirstApp = () => {
   return (
     <div className="App">
-      <Router>
+      test
+      {/* <Router>
         <Switch>
           <Route 
             path="/"
@@ -38,7 +39,7 @@ const FirstApp = () => {
             exact
           />
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }

@@ -1,2 +1,0 @@
-(this["webpackJsonptest-monorepo"]=this["webpackJsonptest-monorepo"]||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var o=n(0),r=n.n(o),s=n(2),a=function(){return r.a.createElement("div",{className:"App"},"The first application")};n.n(s).a.render(r.a.createElement(a,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.35a436a9.chunk.js.map
