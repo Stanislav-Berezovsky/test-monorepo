@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "workspaces": ["first-app", "second-app"],
   "eslintConfig": {
     "extends": "react-app"
   },

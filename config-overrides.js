@@ -10,6 +10,7 @@ module.exports = {
                 appIndexJs: path.resolve(__dirname, 'first-app/src/index.js'),
                 appPublic: path.resolve(__dirname, 'first-app/public'),
                 appHtml: path.resolve(__dirname, 'first-app/public/index.html'),
+                appNodeModules: path.resolve(__dirname, 'first-app/node_modules'),
             },
             second: {
                 appBuild: path.resolve(__dirname, 'build/second-app/'),
