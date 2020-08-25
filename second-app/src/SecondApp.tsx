@@ -1,5 +1,5 @@
 import React from 'react';
-import { SECOND_APP, AdditionalInformation } from '../../common/constant';
+import { SECOND_APP, AdditionalInformation } from '../../common/common-utils';
 import redux from 'redux';
 
 const SecondApp = () => {
