@@ -1,0 +1,2 @@
+(this["webpackJsonptest-monorepo"]=this["webpackJsonptest-monorepo"]||[]).push([[0],{3:function(e,n,t){e.exports=t(8)},8:function(e,n,t){"use strict";t.r(n);var o=t(0),a=t.n(o),r=t(2),l=function(){return a.a.createElement("div",null,"Some additional information")},c=function(){return a.a.createElement("div",{className:"App"},a.a.createElement("div",null,"The second app"),a.a.createElement(l,null))};t.n(r).a.render(a.a.createElement(c,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.68cadf75.chunk.js.map

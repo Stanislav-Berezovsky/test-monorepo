@@ -19,9 +19,10 @@
     "start-second": "cross-env APP_NAME=second react-app-rewired start",
     "build-first": "cross-env APP_NAME=first react-app-rewired build",
     "build-second": "cross-env APP_NAME=second react-app-rewired build",
+    "install-first": "",
+    "install-second": "", 
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "tsc-init": "tsc --init"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

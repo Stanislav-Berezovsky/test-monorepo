@@ -22,7 +22,7 @@
     "include": [
       "first-app/src",
       "second-app/src",
-      "common"
+      "common", "react-app-env.d.ts"
     ]
   }
   
