@@ -20,9 +20,8 @@
       "jsx": "react"
     },
     "include": [
-      "first-app/src",
-      "second-app/src",
-      "common", "react-app-env.d.ts"
+      "src",
+      "../common",
     ]
   }
   

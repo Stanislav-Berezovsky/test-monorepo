@@ -29,6 +29,7 @@ module.exports = {
                 appPublic: path.resolve(__dirname, 'first-app/public'),
                 appHtml: path.resolve(__dirname, 'first-app/public/index.html'),
                 appTypeDeclarations: path.resolve(__dirname, 'react-app-env.d.ts'),
+                appTsConfig: path.resolve(__dirname, 'first-app/tsconfig.json'),
             },
             second: {
                 appBuild: path.resolve(__dirname, 'build/second-app/'),
@@ -37,9 +38,10 @@ module.exports = {
                 appPublic: path.resolve(__dirname, 'second-app/public'),
                 appHtml: path.resolve(__dirname, 'second-app/public/index.html'),
                 appTypeDeclarations: path.resolve(__dirname, 'react-app-env.d.ts'),
+                appTsConfig: path.resolve(__dirname, 'second-app/tsconfig.json'),
             }
         }
-
+        console.log('paths', paths);
         return {
             ...paths,
             ...mapPaths[process.env.APP_NAME],
